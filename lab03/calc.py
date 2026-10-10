@@ -3,3 +3,5 @@ b = float(input("Второе число: "))
 op = str(input("Введите операцию: +, -, *: "))
 if op == "+":
     print(a + b)
+elif op == "-":
+    print(a - b)
